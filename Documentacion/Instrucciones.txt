@@ -1,2 +1,4 @@
 Para poder jugar, se debe descomprimir el .zip con las herramientas instaladas en su ordenador. 
-Luego de descomprimir ejecutar el .exe SALIR DEL INFIERNO.
+Hay 2 carpetas, uno para ejecutar en Windows y la otra en Linux. 
+Luego de descomprimir ejecutar el .exe SALIR DEL INFIERNO que esta dentro de Windows build. (WINDOWS)
+Para poder ejecutar desde Linux debe ser la carpeta Linux build el archivo que dice x86_64
