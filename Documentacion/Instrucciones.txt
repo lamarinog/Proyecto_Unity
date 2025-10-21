@@ -1,0 +1,2 @@
+Para poder jugar, se debe descomprimir el .zip con las herramientas instaladas en su ordenador. 
+Luego de descomprimir ejecutar el .exe SALIR DEL INFIERNO.
