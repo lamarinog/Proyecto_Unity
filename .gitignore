@@ -7,6 +7,9 @@
 /[Tt]emp/
 /[Oo]bj/
 #/[Bb]uild/
+/[Pp]ackages/
+/[Pp]rorjectSettings/
+/.vscode/
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/

@@ -7,7 +7,7 @@ public class BotonRespuesta : MonoBehaviour
     private Button botonUI;
     private TextMeshProUGUI textoRespuesta;
 
-    //CLASE AUXILIAR PARA ASIGNAR VALORES A BOTONES
+    //CLASE AUXILIAR PARA ASIGNAR VALORES A BOTONES CON ATRIBUTOS
     private class BotonData
     {
         public int Valor;
@@ -28,7 +28,7 @@ public class BotonRespuesta : MonoBehaviour
         }
     }
 
-    //ASIGNA VALORES A LOS BOTONES
+    //ASIGNA VALORES A LOS BOTONES PARA LOS PUZZLES
     public void Configurar(int val, bool correcta, IPuzleGestor gestor)
     {
         data.Valor = val;
@@ -40,7 +40,7 @@ public class BotonRespuesta : MonoBehaviour
         }
     }
 
-    //LLAMA A PROCESARRESPUESTA PARA CONFIRMAR SI ES CORRECTO EL BOTON PRESIONADO
+    //LLAMA A PROCESARRESPUESTA PARA CONFIRMAR SI ES CORRECTO EL BOTON PRESIONADO O NO
     public void OnBotonClick()
     {
         if (data.GestorPuzle != null)

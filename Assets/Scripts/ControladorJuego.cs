@@ -69,20 +69,20 @@ public class ControladorJuego : MonoBehaviour
         }
     }
 
-    //INICIA LAS INSTRUCCIONES DEL NIVEL
+    //INICIA LAS INSTRUCCIONES DEL NIVEL 1
     public void IniciarNivelMundoAbierto()
     {
         instrucciones();
     }
 
-    //INICIA LAS INSTRUCCIONES DEL NIVEL Y ASIGNA VIDAS
+    //INICIA LAS INSTRUCCIONES DEL NIVEL 2 Y ASIGNA VIDAS
     public void IniciarNivelMazmorra()
     {
         instrucciones();
         VidasActuales = VidasMaximas;
     }
 
-    //MUESTRA LAS INSTRUCCIONES
+    //MUESTRA LAS INSTRUCCIONES Y CONGELA EL HUD
     public void instrucciones()
     {
         juegoActivo = false;
@@ -114,7 +114,6 @@ public class ControladorJuego : MonoBehaviour
     //VERIFICA SI SE GANA O SE PIERDE
     public void FinalizarJuego(bool victoria)
     {
-
         juegoActivo = false;
         Time.timeScale = 0f;
         Cursor.visible = true;

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BotonIniciar : MonoBehaviour
 {
-    //SCRIPT PARA INICIAR JUEGO EN BOTONES DE COMENZAR
+    //SCRIPT PARA ASIGNAR INICIAR JUEGO EN BOTONES INSPECTOR
     public void ContinuarJuego()
     {
         if (ControladorJuego.Instancia != null)

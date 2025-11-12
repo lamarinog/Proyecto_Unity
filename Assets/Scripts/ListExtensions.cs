@@ -4,7 +4,7 @@ using System;
 
 public static class ListExtensions
 {
-    //PARA HACER EL SHUFFLE DE JEFEMAZMORRA EN LOS DESAFIOS MATEMATICOS.
+    //PARA HACER EL SHUFFLE DE OPCIONES.
     public static void Shuffle<T>(this IList<T> list)
     {
         System.Random rng = new System.Random();
